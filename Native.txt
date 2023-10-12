@@ -1,0 +1,14 @@
+1.Para instalar o conjunto de ferramentas do Expo:
+npm install --global expo-cli
+
+
+2.Para criar um novo projeto:
+expo init my-project
+npx react-native init nomeProjeto
+
+3.Para rodar o projeto é:
+npm start
+
+<View> é como a Div
+
+Para rodar o projeto em um android deve instalar o expo e depois o QR code

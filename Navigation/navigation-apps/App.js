@@ -1,21 +1,22 @@
 
+
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import Info from './src/pages/info';
 import Contact from './src/pages/contact';
 
 
 export default function App() {
 
-  const Stack = createStackNavigator()
+  const Drawer = createDrawerNavigator()
 
   return (
 <NavigationContainer>
- <Stack.Navigator>
- <Stack.Screen name='info' component={Info}/>
- <Stack.Screen name='contact' component={Contact} />
- </Stack.Navigator>
+ <Drawer.Navigator>
+ <Drawer.Screen name='info' component={Info}/>
+ <Drawer.Screen name='contact' component={Contact} />
+ </Drawer.Navigator>
  <Text>sadsa</Text>
 </NavigationContainer>
 
